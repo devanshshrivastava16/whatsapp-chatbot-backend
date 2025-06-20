@@ -192,11 +192,10 @@ Use the generated URL to set up webhook in Meta Developer Console.
 
 ![Profile](https://img.shields.io/badge/Developer-Devansh%20Mohan%20Shrivastava-blue?style=for-the-badge&logo=github)
 
-**Devansh Mohan Shrivastava**  
-Java Developer | Firebase & Web3 Enthusiast
+**Devansh Shrivastava**  
+Java Developer | Web3 Enthusiast
 
 ![Java Developer](https://img.shields.io/badge/Role-Java%20Developer-ED8B00?style=flat&logo=java)
-![Firebase Expert](https://img.shields.io/badge/Expert-Firebase-FFCA28?style=flat&logo=firebase)
 ![Web3 Enthusiast](https://img.shields.io/badge/Enthusiast-Web3-purple?style=flat&logo=ethereum)
 
 ---
