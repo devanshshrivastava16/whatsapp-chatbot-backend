@@ -28,3 +28,47 @@ This project implements a backend chatbot service using **Java**, **Spring Boot*
 
 ## 🏗️ Project Structure
 
+whatsapp-chatbot-backend/
+├── controller/
+│ └── WhatsAppWebhookController.java
+├── service/
+│ ├── WhatsAppService.java
+│ └── FirebaseInitializer.java
+├── model/
+│ └── Message.java
+├── resources/
+│ ├── application.properties
+│ └── serviceAccountKey.json # 🚫 IGNORED
+├── WhatsappChatbotApplication.java
+├── pom.xml
+└── README.md
+
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/yourusername/whatsapp-chatbot-backend.git
+cd whatsapp-chatbot-backend
+```
+2. Add Firebase service account key
+Go to [Firebase Console](https://console.firebase.google.com/)
+
+Navigate to Project Settings > Service Accounts
+
+Click Generate new private key
+
+Save the downloaded serviceAccountKey.json in src/main/resources/
+
+3. Configure application properties
+
+server.port=8080
+
+whatsapp.phone.number.id=YOUR_PHONE_NUMBER_ID
+whatsapp.access.token=YOUR_TEMP_ACCESS_TOKEN
+firebase.config.path=classpath:serviceAccountKey.json
+
+
